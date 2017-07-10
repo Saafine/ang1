@@ -1,0 +1,53 @@
+.navbar-wrapper {
+  width: 100%;
+  color: @fc2-1;
+  background: @bg2;
+  display: flex;
+  height: @navbar-height;
+  line-height: @navbar-height;
+  border-bottom: @bc-2-1;
+}
+
+.navbar-left {
+  flex: 1;
+}
+
+.navbar-right {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.navbar-ul {
+  display: flex;
+}
+
+.navbar-ul > li {
+  padding-left: 15px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.navbar-ul > li:last-child {
+  padding-right: 15px;
+}
+
+.navbar-ul > li:hover {
+  color: @fc2-1-hover;
+}
+
+.navbar-avatar {
+  height: 100%;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+.navbar-logo {
+  font-weight: 500;
+  margin: 0 50px 0 90px;
+}
+
+.navbar-vertical-line {
+  margin: 15px;
+  border-right: @bc-2-1;
+}

@@ -1,0 +1,16 @@
+<div class="sidebar-wrapper">
+  <div class="sidebar-header"></div>
+  <ul>
+    <li ng-repeat="each in nav">
+      <div class="sidebar-option-left truncate">
+        <div class="sidebar-option-title truncate">{{each.title}}</div>
+        <div class="sidebar-option-subtitle truncate">{{each.subtitle}}</div>
+      </div>
+      <div class="sidebar-option-right">
+      <div class="sidebar-option-icon">
+      <i class="fa fa-{{each.icon}}" aria-hidden="true"></i>
+      </div>
+      </div>
+    </li>
+  </ul>
+</div>

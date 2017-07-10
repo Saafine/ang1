@@ -14,7 +14,7 @@ module.exports = {
 
   entry: [
     // 'webpack-dev-server/client?http://localhost:3000',
-    './index.ts'
+    './index.js'
   ],
 
   output: {
@@ -61,7 +61,7 @@ module.exports = {
         }]
       },
       {
-        test: /\.(jpg|jpeg|png|gif|ico|svg)$/,
+        test: /\.(png|woff|woff2|eot|ttf|svg|jpg|gif)$/,
         loader: 'url-loader',
         query: {
           limit: 10000, // use data url for assets <= 10KB
